@@ -6,19 +6,10 @@
 
 ## Как запустить
 
-1. Разместить файл `.env` рядом с `docker-compose.yml`:  
-APP_PORT=8080  
-DB_HOST=db  
-DB_PORT=5432  
-DB_USER=wallet  
-DB_PASSWORD=wallet  
-DB_NAME=wallet  
-DB_SSLMODE=disable  
-
+1. Разместить файл `.env` рядом с `docker-compose.yml`  
 
 2. Поднять сервис:
 docker compose up --build
-
 
 После сборки приложение будет доступно на `http://localhost:8080`.
 
